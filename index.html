@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty cat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    
+
+    <div class="big-container">
+
+        
+        <div id="speech-bubble"></div>
+
+        <svg id="food-bowl" xmlns="http://www.w3.org/2000/svg" width="243" height="150" viewBox="0 0 243 150" fill="none">
+            <rect id="bowl" y="90" width="243" height="60" fill="#A30A0A"/>
+            <g id="food">
+                <rect x="30" y="60" width="30" height="30" fill="#8F4D00"/>
+                <rect x="60" y="30" width="30" height="30" fill="#8F4D00"/>
+                <rect x="60" y="60" width="30" height="30" fill="#8F4D00"/>
+                <rect x="90" y="30" width="30" height="30" fill="#8F4D00"/>
+                <rect x="90" y="60" width="30" height="30" fill="#8F4D00"/>
+                <rect x="120" y="60" width="30" height="30" fill="#8F4D00"/>
+                <rect x="120" y="30" width="30" height="30" fill="#8F4D00"/>
+                <rect x="150" y="60" width="30" height="30" fill="#8F4D00"/>
+                <rect x="180" y="60" width="30" height="30" fill="#8F4D00"/>
+                <rect x="90" width="30" height="30" fill="#8F4D00"/>
+            </g>
+        </svg>
+
+        
+
+        <svg id="kitty" width="660" height="570" viewBox="0 0 660 570" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect class="move-me" x="90" y="420" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="120" y="450" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="120" y="480" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="300" y="480" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="330" y="480" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="360" y="480" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="540" y="480" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="540" y="450" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="540" y="420" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="390" y="480" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="420" y="480" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="510" y="330" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="510" y="360" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="510" y="390" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="450" y="480" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="150" y="480" width="30" height="30" fill="#371D00"/>
+        <rect class="move-me" x="180" y="480" width="30" height="30" fill="#371D00"/>
+        <rect class="move-me" x="210" y="480" width="30" height="30" fill="#371D00"/>
+        <rect class="move-me" x="570" y="270" width="30" height="30" fill="#371D00"/>
+        <rect class="move-me" x="540" y="300" width="30" height="30" fill="#371D00"/>
+        <rect class="move-me" x="90" y="360" width="420" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="330" y="330" width="180" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="360" y="300" width="150" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="90" y="390" width="420" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="120" y="420" width="420" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="150" y="450" width="390" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="240" y="480" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="480" y="480" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="510" y="480" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="390" y="270" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="420" y="270" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="450" y="270" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="480" y="270" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="510" y="270" width="60" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="510" y="300" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="450" y="300" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="420" y="270" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="480" y="300" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="510" y="270" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="390" y="330" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="420" y="360" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="360" y="390" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="360" y="330" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="330" y="360" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="390" y="390" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="270" y="480" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="90" y="90" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="240" y="90" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="90" y="120" width="30" height="30" fill="#371D00"/>
+        <rect class="move-me" x="240" y="120" width="30" height="30" fill="#371D00"/>
+        <rect class="move-me" x="60" y="120" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="270" y="120" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="270" y="150" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="60" y="150" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="120" y="120" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="210" y="120" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="300" y="180" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="330" y="240" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="330" y="300" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="300" y="330" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="90" y="150" width="60" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="30" y="180" width="270" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="30" y="210" width="270" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="30" y="240" width="300" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="30" y="270" width="270" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="30" y="300" width="300" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="60" y="330" width="240" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="150" y="150" width="60" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="210" y="150" width="60" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="120" y="150" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="180" y="150" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="120" y="210" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="150" y="180" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="300" y="240" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="270" y="240" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="90" y="360" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="120" y="360" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="150" y="360" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="180" y="360" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="210" y="330" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="240" y="450" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="465" y="420" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="210" y="450" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="30" y="240" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="600" y="210" width="30" height="60" fill="#633600"/>
+        <rect class="move-me" x="630" y="60" width="30" height="150" fill="#633600"/>
+        <rect class="move-me" x="600" y="30" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="570" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="540" y="240" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="570" y="240" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="570" y="180" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="600" y="180" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="600" y="150" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="600" y="120" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="600" y="90" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="600" y="60" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="570" y="60" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="570" y="30" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="540" y="30" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="540" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="570" y="210" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" x="540" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="570" y="60" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="600" y="60" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="600" y="120" width="30" height="30" fill="#A0650C"/>
+        <rect class="move-me" x="570" y="210" width="30" height="30" fill="#A0650C"/>
+        <rect class="leg" x="120" y="510" width="30" height="30" fill="#633600"/>
+        <rect class="leg" x="150" y="510" width="30" height="30" fill="#633600"/>
+        <rect class="leg" x="270" y="510" width="30" height="30" fill="#D49B46"/>
+        <rect class="leg" x="540" y="540" width="30" height="30" fill="#633600"/>
+        <rect class="leg" x="540" y="510" width="30" height="30" fill="#633600"/>
+        <rect class="leg" x="150" y="540" width="30" height="30" fill="#633600"/>
+        <rect class="leg" x="450" y="510" width="30" height="30" fill="#371D00"/>
+        <rect class="leg" x="450" y="540" width="30" height="30" fill="#371D00"/>
+        <rect class="leg" x="420" y="510" width="30" height="30" fill="#371D00"/>
+        <rect class="leg" x="240" y="510" width="30" height="30" fill="#D49B46"/>
+        <rect class="leg" x="510" y="510" width="30" height="30" fill="#D49B46"/>
+        <rect class="leg" x="240" y="540" width="30" height="30" fill="#D49B46"/>
+        <rect class="move-me" id="kitty-eye" x="60" y="210" width="30" height="30" fill="#4B9D67"/>
+        <rect class="move-me" id="kitty-eye" x="210" y="214" width="30" height="30" fill="#4B9D67"/>
+        <rect class="move-me" x="120" y="240" width="30" height="30" fill="#482424"/>
+        <rect class="move-me" x="150" y="270" width="30" height="30" fill="#633600"/>
+        <rect class="move-me" x="90" y="270" width="30" height="30" fill="#633600"/>
+        <rect id="mouth-pink" x="120" y="270" width="30" height="30" fill="#F27272"/>
+        <rect id="mouth-talk" x="120" y="300" width="30" height="30" fill="#F27272"/>
+        <rect class="move-me" y="210" width="30" height="30" fill="#3A2B2B"/>
+        <rect class="move-me" y="270" width="30" height="30" fill="#3A2B2B"/>
+        <rect class="move-me" x="300" y="210" width="30" height="30" fill="#3A2B2B"/>
+        <rect class="move-me" x="300" y="270" width="30" height="30" fill="#3A2B2B"/>
+        <rect class="move-me" x="330" y="210" width="30" height="30" fill="#3A2B2B"/>
+        <rect class="move-me" x="330" y="270" width="30" height="30" fill="#3A2B2B"/>
+        <rect class="move-me" x="360" y="210" width="30" height="30" fill="#3A2B2B"/>
+        <rect class="move-me" x="360" y="270" width="30" height="30" fill="#3A2B2B"/>
+        </svg>
+
+        <svg id="poop" xmlns="http://www.w3.org/2000/svg" width="176" height="273" viewBox="0 0 176 273" fill="none">
+            <rect x="26" y="243" width="30" height="30" fill="#5C3200"/>
+            <rect x="56" y="243" width="30" height="30" fill="#5C3200"/>
+            <rect x="56" y="213" width="30" height="30" fill="#5C3200"/>
+            <rect x="86" y="243" width="30" height="30" fill="#5C3200"/>
+            <rect x="86" y="213" width="30" height="30" fill="#5C3200"/>
+            <rect x="86" y="183" width="30" height="30" fill="#5C3200"/>
+            <rect x="116" y="153" width="30" height="30" fill="#5C3200"/>
+            <rect x="30" y="90" width="30" height="30" fill="#717171"/>
+            <rect x="116" y="90" width="30" height="30" fill="#717171"/>
+            <rect x="146" y="60" width="30" height="30" fill="#717171"/>
+            <rect x="116" y="30" width="30" height="30" fill="#717171"/>
+            <rect y="60" width="30" height="30" fill="#717171"/>
+            <rect x="30" y="30" width="30" height="30" fill="#717171"/>
+            <rect width="30" height="30" fill="#717171"/>
+            <rect x="116" y="243" width="30" height="30" fill="#5C3200"/>
+            <rect x="116" y="213" width="30" height="30" fill="#5C3200"/>
+            <rect x="146" y="243" width="30" height="30" fill="#5C3200"/>
+        </svg>
+
+        <svg id="upset" xmlns="http://www.w3.org/2000/svg" width="150" height="143" viewBox="0 0 150 143" fill="none">
+            <rect y="30" width="30" height="30" fill="#9E0000"/>
+            <rect y="83" width="30" height="30" fill="#9E0000"/>
+            <rect x="30" y="30" width="30" height="30" fill="#9E0000"/>
+            <rect x="30" y="83" width="30" height="30" fill="#9E0000"/>
+            <rect x="90" y="83" width="30" height="30" fill="#9E0000"/>
+            <rect x="120" y="83" width="30" height="30" fill="#9E0000"/>
+            <rect x="30" y="113" width="30" height="30" fill="#9E0000"/>
+            <rect x="90" y="113" width="30" height="30" fill="#9E0000"/>
+            <rect x="30" width="30" height="30" fill="#9E0000"/>
+            <rect x="90" width="30" height="30" fill="#9E0000"/>
+            <rect x="90" y="30" width="30" height="30" fill="#9E0000"/>
+            <rect x="120" y="30" width="30" height="30" fill="#9E0000"/>
+        </svg>
+
+        <div id="controls">
+            <div id="buttons">
+                <button id="foodBtn">Food</button>
+                <button id="clean">Clean</button>
+                <button id="talk">Talk</button>
+                <button id="learn">Learn</button>
+            </div>
+            <input type="text" id="msg-input" onchange="handleInput(this.value)" placeholder="Type something meow">
+        </div>
+
+        
+    </div>
+    
+
+</body>
+</html>
